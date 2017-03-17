@@ -7,32 +7,32 @@
 
   * **Absolute.cc**:
 
-    ```
+    ```cpp
     int Abs(int a)
     ```
 
   * **Combination.cc**:
 
-    ```
+    ```cpp
     int Combination(int k, int n)
     ```
 
   * **Factorial.cc**:
 
-    ```
+    ```cpp
     int Factorial(int N)
     ```
 
   * **GCD-LCM.cc**:
 
-    ```
+    ```cpp
     int GCD(int a, int b)
     int LCM(int a, int b)
     ```
 
   * **MinMax.cc**:
 
-    ```
+    ```cpp
     int Max(int *a, int N)
     int Min(int *a, int N)
     int Max(int a, int b)
@@ -41,14 +41,14 @@
 
   * **Prime.cc**:
 
-    ```
+    ```cpp
     bool IsPrimeNumber(int a)
     bool* GeneratePrimeArray(int N)
     ```
 
   * **PriorityQueue.cc**:
 
-    ```
+    ```cpp
     class PriorityQueue
     {
       void Heapify(int *a, int leng, int i)
@@ -63,7 +63,7 @@
 
   * **Queue.cc**:
 
-   ```
+   ```cpp
    class Queue
    {
       Queue(int _size)
@@ -79,7 +79,7 @@
 
   * **Sorting.cc**:
 
-    ```
+    ```cpp
     void Selection(int *a, int N)
     void Insertion(int *a, int N)
     void BinaryInsertion(int *a, int N)
@@ -96,13 +96,13 @@
 
   * **Square.cc**:
 
-    ```
+    ```cpp
     bool IsSquareNumber(int a)
     ```
 
   * **Stack.cc**:
 
-    ```
+    ```cpp
     class Stack
     {
       Stack(int _size)
@@ -118,7 +118,7 @@
 
   * **Swap.cc**:
 
-    ```
+    ```cpp
     void Swap(int &a, int &b)
     ```
 
