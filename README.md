@@ -121,5 +121,28 @@
     ```cc
     void Swap(int &a, int &b);
     ```
+    
+  * **N-aryTreeExample.cc**
+  
+    ```c
+    struct _Node
+    {
+	     int id;
+	     struct _Node *child;
+	     struct _Node *next;
+	     struct _Node *previous;
+	     struct _Node *parent;
+    };
+    typedef _Node Node;
+
+    void init(Node *root, int id);
+    Node* find(Node *p, int id);
+    void printTree(Node *p);
+    void traversalTree(Node *node);
+    void add(int id, int pid);
+    void move(int id, int pid);
+    void remove(int id);
+    void getDepth(Node *node, int depth);
+    ```
 
 (to be continue...)
